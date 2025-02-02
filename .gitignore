@@ -1,0 +1,19 @@
+.idea/
+.DS_Store
+target/
+project/
+
+*.class
+*.log
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+/.bsp/
+/index1004/
+/out/
+/datasets/dblp/
+/datasets/airport.csv
+/datasets/hospital.csv
+/datasets/inspection.csv
+/datasets/ncvoter.csv
+/datasets/tax_1000w.csv
