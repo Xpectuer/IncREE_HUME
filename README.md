@@ -15,16 +15,16 @@ You can find the packaged app jar in the **release page**.
 ## Quick Start From Docker
 ### Download Release
 Download the jar file into `target/scala-2.12/` directory.
-```
-wget https://github.com/masdad111/IncREE/releases/download/sigmod/HUME-assembly-0.2.0-CDF.jar -O target/scala-2.12/HUME-assembly-0.2.0-CDF.jar
+```bash
+wget https://github.com/Xpectuer/IncREE_HUME/releases/download/1.0.0/HUME-assembly-0.2.0-CDF.jar
 ```
 ### Build Docker Image 
-```shell 
+```bash 
 docker build -f .devcontainer/Dockerfile -t incree .
 ```
 ### Run the Spark App in container
 
-```shell
+```bash
 docker run --rm \
   -v `pwd`/datasets:/app/datasets \
   -v `pwd`/in:/app/in \
